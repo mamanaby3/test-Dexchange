@@ -1,4 +1,4 @@
-import AuthorsTable from '@/components/tables/AuthorsTable';
+ import AuthorsTable from '@/components/tables/AuthorsTable';
 import ProjectsTable from '@/components/tables/ProjectsTable';
 export default function TablesPage() {
     return (

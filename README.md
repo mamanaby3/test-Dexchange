@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Dexchange SaaS
 
-## Getting Started
+Une application web de type SaaS avec un dashboard, gestion des auteurs et projets.
 
-First, run the development server:
+### Installation et Lancement
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Cloner le projet depuis GitHub :
+```bash 
+git clone [https://github.com/mamanaby3/test-Dexchange.git](https://github.com/mamanaby3/test-Dexchange.git)
+cd test-Dexchange
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installer les dépendances :
+```
+npm install
+# ou avec yarn
+yarn
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Lancer le serveur de développement :
+```
+npm run dev
+# ou avec yarn
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Ouvrir dans le navigateur :
 
-## Learn More
+http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+### 🛠 Librairies Utilisées
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - Next.js 16+ – Framework React pour SSR et App Router.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- React – Librairie UI.
 
-## Deploy on Vercel
+ - Tailwind CSS – Framework CSS pour le style.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ - Lucide-react – Icônes vectorielles.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- TypeScript – Typage statique.
+
+- Vercel : Déploiement et hébergement
+
+### 📂 Structure du projet
+
+app/ : Contient les pages et layouts
+
+components/ : Composants réutilisables (Sidebar, Tables, Navbar…)
+
+data/ : Données simulées pour les tables
+
+public/ : Images et assets
+
+### 💡 Ce que j'aurais fait avec plus de temps
+
+Ajouter une authentification complète  .
+
+Vérifier les bonnes icônes dans Lucide React pour avoir le même rendu.
+
+Ajouter plus de pages et fonctionnalités.
+
+
+Ajouter des tests unitaires et d’intégration pour assurer la stabilité.
+
+Ajouter des animations et transitions pour rendre l’interface plus fluide.
+
+### 📄 Démo
+
+Le projet est déployé sur Vercel : https://test-dexchange.vercel.app/

@@ -8,7 +8,7 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                "dexchange-primary": "#68dac5", // turquoise
+                "dexchange-primary": "#06b6d4", // turquoise
             },
         },
     },
